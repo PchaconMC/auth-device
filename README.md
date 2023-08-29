@@ -10,4 +10,14 @@ Con el token Jwt generado, hacer el consumo del servicio soap DispositivosRegist
 
 ## Solución
 Para la solición del caso 1, se generan los siguientes entregables:
-1. Mocks para los servicios de Autenticación, se desarrollo en Postman, se adjunta archivo con la colección 
+1. Mocks para los servicios de Autenticación desarorllados en Postman, se adjunta archivo con la colección
+     documentacion/Caso1/Mocks/ProveedorExterno-Mocks.postman_collection.json
+
+   
+![MocksPostman](https://github.com/PchaconMC/auth-device/assets/60486812/16ef7499-4d3f-4660-a5f0-d64397de659c)
+
+
+
+   
+
+  
