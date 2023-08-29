@@ -1,0 +1,22 @@
+spring:
+  cloud:
+    gateway:
+      routes:
+      - id: auth-service
+        uri: lb://auth-service
+        predicates:
+          - Path=/auth/**
+        filters:
+          - StripPrefix=1 
+          - name: AuthFilter
+            args:
+              message: Hola, este es mi mensaje personalizado
+              cookieName: usuario
+              cookieVal: pchacon
+          #- AuthFilter=Nueva cookie personalizada,dupla,PE4502CH
+      - id: device-service
+        uri: lb://device-service
+        predicates:
+          - Path=/device/**
+        filters:
+          - StripPrefix=1
