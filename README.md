@@ -45,22 +45,20 @@ Para la solición del caso 1, se generan los siguientes entregables:
   ## Diagramas de la Solución
   
 1. Modelo de Dominio
-   
-  ![Arquitectura TI - Caso1-Modelo de Dominio](https://github.com/PchaconMC/auth-device/assets/60486812/e15d14b9-fc0e-4c4c-a615-0162e534bbf1)
 
+   ![Arquitectura TI - Caso1-Modelo de Dominio (2)](https://github.com/PchaconMC/auth-device/assets/60486812/73535093-ca0c-4734-9806-bbdf88ad5922)
+
+ 
 2. Diagrama de Secuencia Autenticación
 
      ![Arquitectura TI - Auth-DS-C1 (1)](https://github.com/PchaconMC/auth-device/assets/60486812/be342e86-f73c-43a5-a32e-6ebb47621da9)
 
-
-3. Diagrama de Secuencia Validación de Token consulta dispositivos
-
-   
-
-     ![Arquitectura TI - Registered Devices-DS-C1 (1)](https://github.com/PchaconMC/auth-device/assets/60486812/6adaaac1-812c-4416-84f9-808af991aeb7)
-
+   3. Diagrama de Secuencia Validación de Token consulta dispositivos
   
+      
+![Arquitectura TI - Registered Devices-DS-C1 (2)](https://github.com/PchaconMC/auth-device/assets/60486812/44f2a25d-e941-4852-b440-28aee10259b0)
+
+
 
 
    
-
